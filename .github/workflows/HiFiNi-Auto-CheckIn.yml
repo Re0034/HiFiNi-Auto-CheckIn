@@ -1,13 +1,10 @@
 # This workflow will build a Java project with Ant
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-ant
-
 name: HiFINI-Auto-CheckIn
-
 on:
   workflow_dispatch:
   schedule:
     - cron: "30 22 * * *" # 北京时间上午06:30
-
 jobs:
   build:
     env:

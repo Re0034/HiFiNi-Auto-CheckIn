@@ -11,7 +11,8 @@ on:
 jobs:
   build:
     env:
-      COOKIE: ${{ secrets.COOKIE }}
+      COOKIE: ${{bbs_sid=fmo0voqhfv1c4usm9ep3ccp37q; bbs_token=CiFocOyLc_2BoiawhY41mueIl887EQ9FNb_2BYTqZ48gJJP2P9orO_2FFg02ssNO2vZk_2BPQW2wC57J5FiCk1_2F_2FdPW_2BMbndlekz6lef
+}}
       SERVER_CHAN: ${{ secrets.SERVER_CHAN }}
       DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
       WXWORK_WEBHOOK: ${{ secrets.WXWORK_WEBHOOK }}
